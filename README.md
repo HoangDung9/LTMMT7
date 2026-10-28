@@ -20,7 +20,7 @@ Ví dụ về cách biểu diễn:
   - Ví dụ: x³ + x³ = 0 (vì 1 ⊕ 1 = 0).
 - Đa thức tối giản (Irreducible Polynomial): Đóng vai trò giống như một "số nguyên tố". Mọi phép nhân nếu sinh ra đa thức có bậc ≥ 4 đều phải được hạ bậc bằng cách chia lấy dư (modulo) cho đa thức tối giản này.
   - Trong chương trình, ta sử dụng đa thức chuẩn: m(x) = x⁴ + x + 1
-  - Mã nhị phân: `10011` (Thập phân: `19`, Hex: `0x13`).
+  - Mã nhị phân: `0011`.
 
 ---
 
