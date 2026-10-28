@@ -33,6 +33,7 @@ Ví dụ về cách biểu diễn:
 3. Hạ bậc (Modulo): Nếu a vừa bị dịch trái chạm mốc bậc 4 (tức là bit thứ 4 bị bật thành `1`, giá trị ≥ 16), ta phải khử nó đi bằng cách cho a XOR với đa thức tối giản m(x).
 4. Dịch phải b: Đẩy b sang phải 1 bit (`b >> 1`) để loại bỏ bit vừa xét, chuẩn bị vòng lặp tiếp theo.
 
+```text
 --- KET QUA 5 TEST VECTORS ---
 
 Test 1: a = 10 (0xA), b =  5 (0x5) -> KET QUA =  4 (0x4)
@@ -40,3 +41,4 @@ Test 2: a =  2 (0x2), b =  3 (0x3) -> KET QUA =  6 (0x6)
 Test 3: a =  8 (0x8), b =  2 (0x2) -> KET QUA =  3 (0x3)
 Test 4: a =  5 (0x5), b = 11 (0xB) -> KET QUA =  1 (0x1)
 Test 5: a = 15 (0xF), b = 15 (0xF) -> KET QUA = 10 (0xA)
+```
